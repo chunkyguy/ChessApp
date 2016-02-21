@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1917914B1C792A3D00FFC7E7 /* attacks.c in Sources */ = {isa = PBXBuildFile; fileRef = 1917912E1C792A3D00FFC7E7 /* attacks.c */; };
+		1917914C1C792A3D00FFC7E7 /* blob2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1917912F1C792A3D00FFC7E7 /* blob2.c */; };
+		1917914D1C792A3D00FFC7E7 /* book.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791301C792A3D00FFC7E7 /* book.c */; };
+		1917914E1C792A3D00FFC7E7 /* crazy.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791321C792A3D00FFC7E7 /* crazy.c */; };
+		1917914F1C792A3D00FFC7E7 /* draw.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791331C792A3D00FFC7E7 /* draw.c */; };
+		191791501C792A3D00FFC7E7 /* ecache.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791341C792A3D00FFC7E7 /* ecache.c */; };
+		191791511C792A3D00FFC7E7 /* epd.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791351C792A3D00FFC7E7 /* epd.c */; };
+		191791521C792A3D00FFC7E7 /* eval.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791361C792A3D00FFC7E7 /* eval.c */; };
+		191791531C792A3D00FFC7E7 /* learn.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791381C792A3D00FFC7E7 /* learn.c */; };
+		191791541C792A3D00FFC7E7 /* leval.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791391C792A3D00FFC7E7 /* leval.c */; };
+		191791551C792A3D00FFC7E7 /* moves.c in Sources */ = {isa = PBXBuildFile; fileRef = 1917913A1C792A3D00FFC7E7 /* moves.c */; };
+		191791561C792A3D00FFC7E7 /* neval.c in Sources */ = {isa = PBXBuildFile; fileRef = 1917913B1C792A3D00FFC7E7 /* neval.c */; };
+		191791571C792A3D00FFC7E7 /* newbook.c in Sources */ = {isa = PBXBuildFile; fileRef = 1917913C1C792A3D00FFC7E7 /* newbook.c */; };
+		191791581C792A3D00FFC7E7 /* partner.c in Sources */ = {isa = PBXBuildFile; fileRef = 1917913D1C792A3D00FFC7E7 /* partner.c */; };
+		191791591C792A3D00FFC7E7 /* probe.c in Sources */ = {isa = PBXBuildFile; fileRef = 1917913E1C792A3D00FFC7E7 /* probe.c */; };
+		1917915A1C792A3D00FFC7E7 /* proof.c in Sources */ = {isa = PBXBuildFile; fileRef = 1917913F1C792A3D00FFC7E7 /* proof.c */; };
+		1917915B1C792A3D00FFC7E7 /* rcfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791411C792A3D00FFC7E7 /* rcfile.c */; };
+		1917915C1C792A3D00FFC7E7 /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791421C792A3D00FFC7E7 /* search.c */; };
+		1917915D1C792A3D00FFC7E7 /* see.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791431C792A3D00FFC7E7 /* see.c */; };
+		1917915E1C792A3D00FFC7E7 /* segtb.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791441C792A3D00FFC7E7 /* segtb.c */; };
+		1917915F1C792A3D00FFC7E7 /* seval.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791451C792A3D00FFC7E7 /* seval.c */; };
+		191791601C792A3D00FFC7E7 /* sjeng.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791461C792A3D00FFC7E7 /* sjeng.c */; };
+		191791611C792A3D00FFC7E7 /* ttable.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791491C792A3D00FFC7E7 /* ttable.c */; };
+		191791621C792A3D00FFC7E7 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 1917914A1C792A3D00FFC7E7 /* utils.c */; };
+		191791651C792DED00FFC7E7 /* sjeng_engine.c in Sources */ = {isa = PBXBuildFile; fileRef = 191791641C792DED00FFC7E7 /* sjeng_engine.c */; };
+		1974FE001452B1F00019BC47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1974FDFF1452B1F00019BC47 /* UIKit.framework */; };
+		1974FE021452B1F00019BC47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1974FE011452B1F00019BC47 /* Foundation.framework */; };
+		1974FE041452B1F00019BC47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1974FE031452B1F00019BC47 /* CoreGraphics.framework */; };
+		1974FE0A1452B1F00019BC47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1974FE081452B1F00019BC47 /* InfoPlist.strings */; };
+		1974FE0D1452B1F00019BC47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1974FE0C1452B1F00019BC47 /* main.m */; };
+		1974FE101452B1F00019BC47 /* SjengChessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1974FE0F1452B1F00019BC47 /* SjengChessAppDelegate.m */; };
+		1974FE131452B1F00019BC47 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1974FE111452B1F00019BC47 /* MainWindow.xib */; };
+		19AB0E81145301650047E664 /* BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E75145301650047E664 /* BB.png */; };
+		19AB0E82145301650047E664 /* BK.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E76145301650047E664 /* BK.png */; };
+		19AB0E83145301650047E664 /* BN.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E77145301650047E664 /* BN.png */; };
+		19AB0E84145301650047E664 /* BP.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E78145301650047E664 /* BP.png */; };
+		19AB0E85145301650047E664 /* BQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E79145301650047E664 /* BQ.png */; };
+		19AB0E86145301650047E664 /* BR.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E7A145301650047E664 /* BR.png */; };
+		19AB0E87145301650047E664 /* WB.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E7B145301650047E664 /* WB.png */; };
+		19AB0E88145301650047E664 /* WK.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E7C145301650047E664 /* WK.png */; };
+		19AB0E89145301650047E664 /* WN.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E7D145301650047E664 /* WN.png */; };
+		19AB0E8A145301650047E664 /* WP.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E7E145301650047E664 /* WP.png */; };
+		19AB0E8B145301650047E664 /* WQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E7F145301650047E664 /* WQ.png */; };
+		19AB0E8C145301650047E664 /* WR.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AB0E80145301650047E664 /* WR.png */; };
+		19FCC94A1C79261600F40917 /* libsjeng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FCC90A1C7922AF00F40917 /* libsjeng.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19FCC9481C79236800F40917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1974FDF21452B1EF0019BC47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19FCC9091C7922AF00F40917;
+			remoteInfo = sjeng;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		19FCC9081C7922AF00F40917 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1917912E1C792A3D00FFC7E7 /* attacks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = attacks.c; sourceTree = "<group>"; };
+		1917912F1C792A3D00FFC7E7 /* blob2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blob2.c; sourceTree = "<group>"; };
+		191791301C792A3D00FFC7E7 /* book.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = book.c; sourceTree = "<group>"; };
+		191791311C792A3D00FFC7E7 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		191791321C792A3D00FFC7E7 /* crazy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crazy.c; sourceTree = "<group>"; };
+		191791331C792A3D00FFC7E7 /* draw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = draw.c; sourceTree = "<group>"; };
+		191791341C792A3D00FFC7E7 /* ecache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecache.c; sourceTree = "<group>"; };
+		191791351C792A3D00FFC7E7 /* epd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epd.c; sourceTree = "<group>"; };
+		191791361C792A3D00FFC7E7 /* eval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eval.c; sourceTree = "<group>"; };
+		191791371C792A3D00FFC7E7 /* extvars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extvars.h; sourceTree = "<group>"; };
+		191791381C792A3D00FFC7E7 /* learn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = learn.c; sourceTree = "<group>"; };
+		191791391C792A3D00FFC7E7 /* leval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = leval.c; sourceTree = "<group>"; };
+		1917913A1C792A3D00FFC7E7 /* moves.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = moves.c; sourceTree = "<group>"; };
+		1917913B1C792A3D00FFC7E7 /* neval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = neval.c; sourceTree = "<group>"; };
+		1917913C1C792A3D00FFC7E7 /* newbook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = newbook.c; sourceTree = "<group>"; };
+		1917913D1C792A3D00FFC7E7 /* partner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = partner.c; sourceTree = "<group>"; };
+		1917913E1C792A3D00FFC7E7 /* probe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = probe.c; sourceTree = "<group>"; };
+		1917913F1C792A3D00FFC7E7 /* proof.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = proof.c; sourceTree = "<group>"; };
+		191791401C792A3D00FFC7E7 /* protos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protos.h; sourceTree = "<group>"; };
+		191791411C792A3D00FFC7E7 /* rcfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rcfile.c; sourceTree = "<group>"; };
+		191791421C792A3D00FFC7E7 /* search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = search.c; sourceTree = "<group>"; };
+		191791431C792A3D00FFC7E7 /* see.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = see.c; sourceTree = "<group>"; };
+		191791441C792A3D00FFC7E7 /* segtb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = segtb.c; sourceTree = "<group>"; };
+		191791451C792A3D00FFC7E7 /* seval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = seval.c; sourceTree = "<group>"; };
+		191791461C792A3D00FFC7E7 /* sjeng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sjeng.c; sourceTree = "<group>"; };
+		191791471C792A3D00FFC7E7 /* sjeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sjeng.h; sourceTree = "<group>"; };
+		191791481C792A3D00FFC7E7 /* squares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = squares.h; sourceTree = "<group>"; };
+		191791491C792A3D00FFC7E7 /* ttable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ttable.c; sourceTree = "<group>"; };
+		1917914A1C792A3D00FFC7E7 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		191791631C792A6900FFC7E7 /* sjeng_engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sjeng_engine.h; sourceTree = "<group>"; };
+		191791641C792DED00FFC7E7 /* sjeng_engine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sjeng_engine.c; sourceTree = "<group>"; };
+		1974FDFB1452B1F00019BC47 /* SjengChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SjengChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1974FDFF1452B1F00019BC47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1974FE011452B1F00019BC47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1974FE031452B1F00019BC47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1974FE071452B1F00019BC47 /* SjengChess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SjengChess-Info.plist"; sourceTree = "<group>"; };
+		1974FE091452B1F00019BC47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1974FE0B1452B1F00019BC47 /* SjengChess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SjengChess-Prefix.pch"; sourceTree = "<group>"; };
+		1974FE0C1452B1F00019BC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1974FE0E1452B1F00019BC47 /* SjengChessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SjengChessAppDelegate.h; sourceTree = "<group>"; };
+		1974FE0F1452B1F00019BC47 /* SjengChessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SjengChessAppDelegate.m; sourceTree = "<group>"; };
+		1974FE121452B1F00019BC47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		19AB0E75145301650047E664 /* BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BB.png; sourceTree = "<group>"; };
+		19AB0E76145301650047E664 /* BK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BK.png; sourceTree = "<group>"; };
+		19AB0E77145301650047E664 /* BN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BN.png; sourceTree = "<group>"; };
+		19AB0E78145301650047E664 /* BP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BP.png; sourceTree = "<group>"; };
+		19AB0E79145301650047E664 /* BQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BQ.png; sourceTree = "<group>"; };
+		19AB0E7A145301650047E664 /* BR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BR.png; sourceTree = "<group>"; };
+		19AB0E7B145301650047E664 /* WB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WB.png; sourceTree = "<group>"; };
+		19AB0E7C145301650047E664 /* WK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WK.png; sourceTree = "<group>"; };
+		19AB0E7D145301650047E664 /* WN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WN.png; sourceTree = "<group>"; };
+		19AB0E7E145301650047E664 /* WP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WP.png; sourceTree = "<group>"; };
+		19AB0E7F145301650047E664 /* WQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WQ.png; sourceTree = "<group>"; };
+		19AB0E80145301650047E664 /* WR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WR.png; sourceTree = "<group>"; };
+		19FCC90A1C7922AF00F40917 /* libsjeng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsjeng.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1974FDF81452B1F00019BC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FCC94A1C79261600F40917 /* libsjeng.a in Frameworks */,
+				1974FE001452B1F00019BC47 /* UIKit.framework in Frameworks */,
+				1974FE021452B1F00019BC47 /* Foundation.framework in Frameworks */,
+				1974FE041452B1F00019BC47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FCC9071C7922AF00F40917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1917912B1C792A3D00FFC7E7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1917912C1C792A3D00FFC7E7 /* sjeng */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1917912C1C792A3D00FFC7E7 /* sjeng */ = {
+			isa = PBXGroup;
+			children = (
+				191791631C792A6900FFC7E7 /* sjeng_engine.h */,
+				191791641C792DED00FFC7E7 /* sjeng_engine.c */,
+			);
+			path = sjeng;
+			sourceTree = "<group>";
+		};
+		1917912D1C792A3D00FFC7E7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1917912E1C792A3D00FFC7E7 /* attacks.c */,
+				1917912F1C792A3D00FFC7E7 /* blob2.c */,
+				191791301C792A3D00FFC7E7 /* book.c */,
+				191791311C792A3D00FFC7E7 /* config.h */,
+				191791321C792A3D00FFC7E7 /* crazy.c */,
+				191791331C792A3D00FFC7E7 /* draw.c */,
+				191791341C792A3D00FFC7E7 /* ecache.c */,
+				191791351C792A3D00FFC7E7 /* epd.c */,
+				191791361C792A3D00FFC7E7 /* eval.c */,
+				191791371C792A3D00FFC7E7 /* extvars.h */,
+				191791381C792A3D00FFC7E7 /* learn.c */,
+				191791391C792A3D00FFC7E7 /* leval.c */,
+				1917913A1C792A3D00FFC7E7 /* moves.c */,
+				1917913B1C792A3D00FFC7E7 /* neval.c */,
+				1917913C1C792A3D00FFC7E7 /* newbook.c */,
+				1917913D1C792A3D00FFC7E7 /* partner.c */,
+				1917913E1C792A3D00FFC7E7 /* probe.c */,
+				1917913F1C792A3D00FFC7E7 /* proof.c */,
+				191791401C792A3D00FFC7E7 /* protos.h */,
+				191791411C792A3D00FFC7E7 /* rcfile.c */,
+				191791421C792A3D00FFC7E7 /* search.c */,
+				191791431C792A3D00FFC7E7 /* see.c */,
+				191791441C792A3D00FFC7E7 /* segtb.c */,
+				191791451C792A3D00FFC7E7 /* seval.c */,
+				191791461C792A3D00FFC7E7 /* sjeng.c */,
+				191791471C792A3D00FFC7E7 /* sjeng.h */,
+				191791481C792A3D00FFC7E7 /* squares.h */,
+				191791491C792A3D00FFC7E7 /* ttable.c */,
+				1917914A1C792A3D00FFC7E7 /* utils.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1974FDF01452B1EF0019BC47 = {
+			isa = PBXGroup;
+			children = (
+				1974FE051452B1F00019BC47 /* SjengChess */,
+				19FCC90B1C7922AF00F40917 /* sjeng */,
+				1974FDFE1452B1F00019BC47 /* Frameworks */,
+				1974FDFC1452B1F00019BC47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1974FDFC1452B1F00019BC47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1974FDFB1452B1F00019BC47 /* SjengChess.app */,
+				19FCC90A1C7922AF00F40917 /* libsjeng.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1974FDFE1452B1F00019BC47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1974FDFF1452B1F00019BC47 /* UIKit.framework */,
+				1974FE011452B1F00019BC47 /* Foundation.framework */,
+				1974FE031452B1F00019BC47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1974FE051452B1F00019BC47 /* SjengChess */ = {
+			isa = PBXGroup;
+			children = (
+				1974FE0E1452B1F00019BC47 /* SjengChessAppDelegate.h */,
+				1974FE0F1452B1F00019BC47 /* SjengChessAppDelegate.m */,
+				1974FE111452B1F00019BC47 /* MainWindow.xib */,
+				1974FE061452B1F00019BC47 /* Supporting Files */,
+			);
+			path = SjengChess;
+			sourceTree = "<group>";
+		};
+		1974FE061452B1F00019BC47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19AB0E74145301650047E664 /* images */,
+				1974FE071452B1F00019BC47 /* SjengChess-Info.plist */,
+				1974FE081452B1F00019BC47 /* InfoPlist.strings */,
+				1974FE0B1452B1F00019BC47 /* SjengChess-Prefix.pch */,
+				1974FE0C1452B1F00019BC47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19AB0E74145301650047E664 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				19AB0E75145301650047E664 /* BB.png */,
+				19AB0E76145301650047E664 /* BK.png */,
+				19AB0E77145301650047E664 /* BN.png */,
+				19AB0E78145301650047E664 /* BP.png */,
+				19AB0E79145301650047E664 /* BQ.png */,
+				19AB0E7A145301650047E664 /* BR.png */,
+				19AB0E7B145301650047E664 /* WB.png */,
+				19AB0E7C145301650047E664 /* WK.png */,
+				19AB0E7D145301650047E664 /* WN.png */,
+				19AB0E7E145301650047E664 /* WP.png */,
+				19AB0E7F145301650047E664 /* WQ.png */,
+				19AB0E80145301650047E664 /* WR.png */,
+			);
+			name = images;
+			path = ../../ChessEngine/images;
+			sourceTree = "<group>";
+		};
+		19FCC90B1C7922AF00F40917 /* sjeng */ = {
+			isa = PBXGroup;
+			children = (
+				1917912B1C792A3D00FFC7E7 /* include */,
+				1917912D1C792A3D00FFC7E7 /* src */,
+			);
+			path = sjeng;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1974FDFA1452B1F00019BC47 /* SjengChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1974FE161452B1F00019BC47 /* Build configuration list for PBXNativeTarget "SjengChess" */;
+			buildPhases = (
+				1974FDF71452B1F00019BC47 /* Sources */,
+				1974FDF81452B1F00019BC47 /* Frameworks */,
+				1974FDF91452B1F00019BC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19FCC9491C79236800F40917 /* PBXTargetDependency */,
+			);
+			name = SjengChess;
+			productName = SjengChess;
+			productReference = 1974FDFB1452B1F00019BC47 /* SjengChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19FCC9091C7922AF00F40917 /* sjeng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19FCC9101C7922B000F40917 /* Build configuration list for PBXNativeTarget "sjeng" */;
+			buildPhases = (
+				19FCC9061C7922AF00F40917 /* Sources */,
+				19FCC9071C7922AF00F40917 /* Frameworks */,
+				19FCC9081C7922AF00F40917 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sjeng;
+			productName = sjeng;
+			productReference = 19FCC90A1C7922AF00F40917 /* libsjeng.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1974FDF21452B1EF0019BC47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = whackylabs;
+				TargetAttributes = {
+					19FCC9091C7922AF00F40917 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1974FDF51452B1EF0019BC47 /* Build configuration list for PBXProject "SjengChess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1974FDF01452B1EF0019BC47;
+			productRefGroup = 1974FDFC1452B1F00019BC47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1974FDFA1452B1F00019BC47 /* SjengChess */,
+				19FCC9091C7922AF00F40917 /* sjeng */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1974FDF91452B1F00019BC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1974FE0A1452B1F00019BC47 /* InfoPlist.strings in Resources */,
+				1974FE131452B1F00019BC47 /* MainWindow.xib in Resources */,
+				19AB0E81145301650047E664 /* BB.png in Resources */,
+				19AB0E82145301650047E664 /* BK.png in Resources */,
+				19AB0E83145301650047E664 /* BN.png in Resources */,
+				19AB0E84145301650047E664 /* BP.png in Resources */,
+				19AB0E85145301650047E664 /* BQ.png in Resources */,
+				19AB0E86145301650047E664 /* BR.png in Resources */,
+				19AB0E87145301650047E664 /* WB.png in Resources */,
+				19AB0E88145301650047E664 /* WK.png in Resources */,
+				19AB0E89145301650047E664 /* WN.png in Resources */,
+				19AB0E8A145301650047E664 /* WP.png in Resources */,
+				19AB0E8B145301650047E664 /* WQ.png in Resources */,
+				19AB0E8C145301650047E664 /* WR.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1974FDF71452B1F00019BC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1974FE0D1452B1F00019BC47 /* main.m in Sources */,
+				1974FE101452B1F00019BC47 /* SjengChessAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FCC9061C7922AF00F40917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191791531C792A3D00FFC7E7 /* learn.c in Sources */,
+				1917914F1C792A3D00FFC7E7 /* draw.c in Sources */,
+				1917914B1C792A3D00FFC7E7 /* attacks.c in Sources */,
+				191791571C792A3D00FFC7E7 /* newbook.c in Sources */,
+				191791581C792A3D00FFC7E7 /* partner.c in Sources */,
+				191791511C792A3D00FFC7E7 /* epd.c in Sources */,
+				1917915F1C792A3D00FFC7E7 /* seval.c in Sources */,
+				191791541C792A3D00FFC7E7 /* leval.c in Sources */,
+				191791651C792DED00FFC7E7 /* sjeng_engine.c in Sources */,
+				191791501C792A3D00FFC7E7 /* ecache.c in Sources */,
+				191791621C792A3D00FFC7E7 /* utils.c in Sources */,
+				191791561C792A3D00FFC7E7 /* neval.c in Sources */,
+				1917915E1C792A3D00FFC7E7 /* segtb.c in Sources */,
+				1917915D1C792A3D00FFC7E7 /* see.c in Sources */,
+				191791591C792A3D00FFC7E7 /* probe.c in Sources */,
+				191791551C792A3D00FFC7E7 /* moves.c in Sources */,
+				191791611C792A3D00FFC7E7 /* ttable.c in Sources */,
+				1917914E1C792A3D00FFC7E7 /* crazy.c in Sources */,
+				1917914D1C792A3D00FFC7E7 /* book.c in Sources */,
+				1917914C1C792A3D00FFC7E7 /* blob2.c in Sources */,
+				191791601C792A3D00FFC7E7 /* sjeng.c in Sources */,
+				1917915B1C792A3D00FFC7E7 /* rcfile.c in Sources */,
+				1917915C1C792A3D00FFC7E7 /* search.c in Sources */,
+				1917915A1C792A3D00FFC7E7 /* proof.c in Sources */,
+				191791521C792A3D00FFC7E7 /* eval.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19FCC9491C79236800F40917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19FCC9091C7922AF00F40917 /* sjeng */;
+			targetProxy = 19FCC9481C79236800F40917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1974FE081452B1F00019BC47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1974FE091452B1F00019BC47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1974FE111452B1F00019BC47 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1974FE121452B1F00019BC47 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1974FE141452B1F00019BC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1974FE151452B1F00019BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1974FE171452B1F00019BC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SjengChess/SjengChess-Prefix.pch";
+				INFOPLIST_FILE = "SjengChess/SjengChess-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/sjeng/include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1974FE181452B1F00019BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SjengChess/SjengChess-Prefix.pch";
+				INFOPLIST_FILE = "SjengChess/SjengChess-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/sjeng/include";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		19FCC9111C7922B000F40917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = ansi;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		19FCC9121C7922B000F40917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = ansi;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1974FDF51452B1EF0019BC47 /* Build configuration list for PBXProject "SjengChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1974FE141452B1F00019BC47 /* Debug */,
+				1974FE151452B1F00019BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1974FE161452B1F00019BC47 /* Build configuration list for PBXNativeTarget "SjengChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1974FE171452B1F00019BC47 /* Debug */,
+				1974FE181452B1F00019BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19FCC9101C7922B000F40917 /* Build configuration list for PBXNativeTarget "sjeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FCC9111C7922B000F40917 /* Debug */,
+				19FCC9121C7922B000F40917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1974FDF21452B1EF0019BC47 /* Project object */;
+}
