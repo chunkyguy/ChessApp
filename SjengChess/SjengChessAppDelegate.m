@@ -9,12 +9,6 @@
 #import "SjengChessAppDelegate.h"
 #import "sjeng/sjeng_engine.h"
 
-@interface SjengChessRootViewController: UIViewController
-@end
-
-@implementation SjengChessRootViewController
-@end
-
 @implementation SjengChessAppDelegate
 
 
@@ -25,7 +19,7 @@
 	// Override point for customization after application launch.
 	[self.window setBackgroundColor:[UIColor greenColor]];
 
-    [self.window setRootViewController:[[SjengChessRootViewController alloc] init]];
+    [self.window setRootViewController:[[UIViewController alloc] init]];
 	
 	touches_ = [[NSMutableArray alloc] initWithCapacity:2];
 	for(int i = 0; i < 2; i++)
